@@ -1,0 +1,93 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000;
+}
+#header{
+    height: 200px;
+    background-color: rgb(18,18,18);
+    background-color: #121212;
+    background-color: hsl(0,0,7);
+    color: white;
+    display: flex;
+}
+#name{
+    line-height: 2;
+    font-size:40px;
+}
+#header-two{
+    width:90%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+#self{
+    height: 200px;
+}
+.subheading{
+    display: flex;
+    justify-content: center;
+    width:30%;
+    margin-left:auto;
+    margin-right: auto;
+    
+}
+.sub{
+    margin-top:10px;
+    margin-left:auto;
+    margin-right: auto;
+    
+}
+
+.sub a{
+    text-decoration:none;
+    color:white;
+}
+.sub:hover{
+    text-decoration:underline;
+}
+.logo{
+    background-color: white;
+    border-radius: 8px;
+    height:20px;
+    margin:20px;
+}
+#black{
+    background-color: #000000;
+    height: 200px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-image: url(/images/mern.jpg);
+}
+#about{
+    background-image: url(/images/black.webp);
+    height: 300px;
+    color:white;
+    padding:50px;
+}
+
+#about p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:600;
+    word-spacing: 0.5em;
+    line-height: 2em;
+}
+
+#contact{
+    background-color: 2px solid red;
+    background-color: #000000;
+    color: white;
+    height:300px;
+    padding:50px;
+    
+}
+
+#contact p{
+    margin-top:20px;
+}
